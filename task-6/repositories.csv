@@ -1,0 +1,11 @@
+repo,description,is_sponsored,topics,stargazers,language,date,commits
+ohmyzsh/ohmyzsh,"🙃 A delightful community-driven (with 2,100+ contributors) framework for managing your zsh configuration. Includes 30…",yes,zsh|terminal|shell|theme|cli|productivity|oh-my-zsh|plugins|themes|cli-app|hacktoberfest|oh-my-zsh-theme|oh-my-zsh-plugin|zsh-configuration|ohmyzsh|plugin-framework,157k,Shell,09/04/2023,"6,869"
+laravel/laravel,"Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your ne…",no,laravel|php|framework,73.1k,PHP,05/04/2023,"6,881"
+grpc/grpc,"The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)",no,N/A,37.5k,C++,07/04/2023,"52,870"
+php/php-src,"The PHP Interpreter",no,N/A,35.3k,C,08/04/2023,"131,900"
+LeCoupa/awesome-cheatsheets,"👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everythi…",no,vim|php|nodejs|javascript|bash|docker|language|programming-language|kubernetes|redis|vuejs|django|database|frontend|backend|xcode|cheatsheet|feathersjs|sailsjs|cheatsheets,33.1k,JavaScript,24/03/2023,733
+blueimp/jQuery-File-Upload,"File Upload widget with multiple file selection, drag&drop support, progress bar, validation and preview images, audi…",yes,N/A,31k,PHP,30/09/2021,"1,265"
+laravel/framework,"The Laravel Framework.",no,laravel|php|framework,29.3k,PHP,08/04/2023,"35,566"
+ziadoz/awesome-php,"A curated list of amazingly awesome PHP libraries, resources and shiny things.",no,php|awesome|php-framework|php7|php-library|php-applications|awesome-lists|php-installation,28.5k,N/A,05/04/2023,"1,567"
+symfony/symfony,"The Symfony PHP framework",yes,symfony|php|framework|bundle|symfony-bundle|php-framework|hacktoberfest,28.2k,PHP,08/04/2023,"64,242"
+ccxt/ccxt,"A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges",yes,cryptocurrency|trading|exchange|bitcoin|crypto|bot|api|library|ethereum|e-commerce|market-data|strategy|btc|trade|eth|arbitrage|altcoin|merchant|invest,27.8k,Python,09/04/2023,"71,631"

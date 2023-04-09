@@ -2,7 +2,8 @@
 
 declare(strict_types=1);
 
-class Task7 {
+class Task7
+{
   private string $_url;
   private string $_csvFilename;
 
@@ -23,7 +24,7 @@ class Task7 {
   {
     $jsonData = file_get_contents($this->_url);
 
-    if(!$jsonData) {
+    if (!$jsonData) {
       return [];
     }
 
@@ -41,12 +42,12 @@ class Task7 {
     $buffer = fopen('php://output', 'w+');
     fputcsv($buffer, ['Title', 'Price', 'Brand']);
 
-    foreach($data['products'] as $product) {
+    foreach ($data['products'] as $product) {
       fputcsv($buffer, [
         $product['title'] ?? 'N/A',
         $product['price'] ?? 'N/A',
         $product['brand'] ?? 'N/A',
-     ]);
+      ]);
     }
 
     return ob_get_clean();

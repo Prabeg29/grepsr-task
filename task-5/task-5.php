@@ -27,7 +27,7 @@ declare(strict_types=1);
  * ]
  */
 
- $products = [
+$products = [
   'Home' => [
     'Electronics & Accessories' => [
       'items' => [
@@ -35,7 +35,7 @@ declare(strict_types=1);
           'title' => 'SanDisk 256',
           'price' => '24.45'
         ],
-        [          
+        [
           'title' => 'Jabra Wireless Headset',
           'price' => '55.12'
         ]
@@ -43,7 +43,7 @@ declare(strict_types=1);
       'Accessories' => [
         'items' => [
           [
-            'title' => 'DJI OM 5 Smartphone Gimbal Stabilizer',  
+            'title' => 'DJI OM 5 Smartphone Gimbal Stabilizer',
             'price' => '129.99'
           ],
           [
@@ -56,19 +56,20 @@ declare(strict_types=1);
   ],
 ];
 
-function getProducts(array $products): array {
+function getProducts(array $products): array
+{
   $resultantArray = [];
 
-  foreach($products as $category => $categoryItems) {
+  foreach ($products as $category => $categoryItems) {
     if ($category !== 'items') {
       $subCategoryProducts = getProducts($categoryItems);
-      foreach($subCategoryProducts as $subCategoryProduct) {
+      foreach ($subCategoryProducts as $subCategoryProduct) {
         $subCategoryProduct['category'] = $category . ' > ' . $subCategoryProduct['category'];
         array_push($resultantArray, $subCategoryProduct);
       }
     }
 
-    if(isset($categoryItems['items'])) {
+    if (isset($categoryItems['items'])) {
       foreach ($categoryItems['items'] as $item) {
         $product = [
           'title' => $item['title'],
@@ -83,6 +84,6 @@ function getProducts(array $products): array {
   return $resultantArray;
 }
 
-foreach(getProducts($products) as $product) {
+foreach (getProducts($products) as $product) {
   print_r($product);
 }

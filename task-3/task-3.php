@@ -6,11 +6,13 @@
  * b. ‘1st November 2022’ to ‘01/11/2022’ format
  */
 
-function convertDateA(string $date): string {
+function convertDateA(string $date): string
+{
   return DateTime::createFromFormat('F d Y', $date)->format('dmY');
 }
 
-function convertDateB(string $date): string {
+function convertDateB(string $date): string
+{
   return DateTime::createFromFormat('jS F Y', $date)->format('d/m/Y');
 }
 
