@@ -2,6 +2,14 @@
 
 declare(strict_types=1);
 
+/**
+ * Write a code to create a ‘CSV’ file named ‘laptop.csv’ with column names as listed:
+ * a. Title
+ * b. Price
+ * c. Brand
+ * from JSON data. (available at https://dummyjson.com/products/search?q=Laptop)
+*/
+
 class Task7
 {
   private string $_url;
