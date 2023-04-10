@@ -1,11 +1,101 @@
 repo,description,is_sponsored,topics,stargazers,language,date,commits
-ohmyzsh/ohmyzsh,"🙃 A delightful community-driven (with 2,100+ contributors) framework for managing your zsh configuration. Includes 30…",yes,zsh|terminal|shell|theme|cli|productivity|oh-my-zsh|plugins|themes|cli-app|hacktoberfest|oh-my-zsh-theme|oh-my-zsh-plugin|zsh-configuration|ohmyzsh|plugin-framework,157k,Shell,09/04/2023,"6,869"
+ohmyzsh/ohmyzsh,"🙃 A delightful community-driven (with 2,100+ contributors) framework for managing your zsh configuration. Includes 30…",yes,zsh|terminal|shell|theme|cli|productivity|oh-my-zsh|plugins|themes|cli-app|hacktoberfest|oh-my-zsh-theme|oh-my-zsh-plugin|zsh-configuration|ohmyzsh|plugin-framework,157k,Shell,10/04/2023,"6,870"
 laravel/laravel,"Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your ne…",no,laravel|php|framework,73.1k,PHP,05/04/2023,"6,881"
-grpc/grpc,"The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)",no,N/A,37.5k,C++,07/04/2023,"52,870"
-php/php-src,"The PHP Interpreter",no,N/A,35.3k,C,08/04/2023,"131,900"
+grpc/grpc,"The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)",no,,37.6k,C++,10/04/2023,"52,870"
+php/php-src,"The PHP Interpreter",no,,35.3k,C,09/04/2023,"131,900"
 LeCoupa/awesome-cheatsheets,"👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everythi…",no,vim|php|nodejs|javascript|bash|docker|language|programming-language|kubernetes|redis|vuejs|django|database|frontend|backend|xcode|cheatsheet|feathersjs|sailsjs|cheatsheets,33.1k,JavaScript,24/03/2023,733
-blueimp/jQuery-File-Upload,"File Upload widget with multiple file selection, drag&drop support, progress bar, validation and preview images, audi…",yes,N/A,31k,PHP,30/09/2021,"1,265"
-laravel/framework,"The Laravel Framework.",no,laravel|php|framework,29.3k,PHP,08/04/2023,"35,566"
+blueimp/jQuery-File-Upload,"File Upload widget with multiple file selection, drag&drop support, progress bar, validation and preview images, audi…",yes,,31k,PHP,30/09/2021,"1,265"
+laravel/framework,"The Laravel Framework.",no,laravel|php|framework,29.3k,PHP,09/04/2023,"35,566"
 ziadoz/awesome-php,"A curated list of amazingly awesome PHP libraries, resources and shiny things.",no,php|awesome|php-framework|php7|php-library|php-applications|awesome-lists|php-installation,28.5k,N/A,05/04/2023,"1,567"
-symfony/symfony,"The Symfony PHP framework",yes,symfony|php|framework|bundle|symfony-bundle|php-framework|hacktoberfest,28.2k,PHP,08/04/2023,"64,242"
-ccxt/ccxt,"A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges",yes,cryptocurrency|trading|exchange|bitcoin|crypto|bot|api|library|ethereum|e-commerce|market-data|strategy|btc|trade|eth|arbitrage|altcoin|merchant|invest,27.8k,Python,09/04/2023,"71,631"
+symfony/symfony,"The Symfony PHP framework",yes,symfony|php|framework|bundle|symfony-bundle|php-framework|hacktoberfest,28.2k,PHP,09/04/2023,"64,244"
+ccxt/ccxt,"A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges",yes,cryptocurrency|trading|exchange|bitcoin|crypto|bot|api|library|ethereum|e-commerce|market-data|strategy|btc|trade|eth|arbitrage|altcoin|merchant|invest,27.8k,Python,10/04/2023,"71,636"
+composer/composer,"Dependency Manager for PHP",yes,php|composer|package-manager|dependency-manager|packages|hacktoberfest,27.5k,PHP,06/04/2023,"12,088"
+alebcay/awesome-shell,"A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.",no,awesome|shell|awesome-list|bash|zsh|cli|list|fish,27.1k,N/A,22/03/2023,650
+fzaninotto/Faker,"Faker is a PHP library that generates fake data for you",no,,26.7k,PHP,11/07/2022,"2,632"
+geekcompany/ResumeSample,"Resume template for Chinese programmers . 程序员简历模板系列。包括PHP程序员简历模板、iOS程序员简历模板、Android程序员简历模板、Web前端程序员简历模板、Java程序员简历模板、C…",no,,26.1k,N/A,26/11/2020,26
+kahun/awesome-sysadmin,"A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.",no,,22.9k,N/A,08/04/2023,515
+guzzle/guzzle,"Guzzle, an extensible PHP HTTP client",yes,php|http-client|curl|guzzle|psr-7|requests|httpclient|webservices,22.5k,PHP,21/03/2023,"3,617"
+nextcloud/server,"☁️ Nextcloud server, a safe home for all your data",yes,nextcloud|open-source|hacktoberfest|collaboration|opensource|javascript|php|enterprise|design|cloud|ux|owncloud|decentralized|sharing|file-sharing|distributed|free-software|usability|self-hosting|federation,22k,PHP,10/04/2023,"66,919"
+DesignPatternsPHP/DesignPatternsPHP,"sample code for several design patterns in PHP 8",no,design-patterns|design-pattern|php|oop|phpunit|code-examples|designpatternsphp|modern-php|php8,21.2k,PHP,06/04/2023,"1,269"
+Seldaek/monolog,"Sends your logs to files, sockets, inboxes, databases and various web services",yes,php|logging|logger|psr-3|hacktoberfest,20.3k,PHP,09/04/2023,"2,696"
+PHPMailer/PHPMailer,"The classic email sending library for PHP",yes,php|email|smtp|php-library|attachment|phpmailer|hacktoberfest|tls-support|xoauth2,19.4k,PHP,03/04/2023,"2,294"
+sebastianbergmann/phpunit,"The PHP Unit Testing framework.",yes,phpunit|php|testing-tools,19k,PHP,09/04/2023,"18,249"
+monicahq/monica,"Personal CRM. Remember everything about your friends, family and business relationships.",yes,social|php|laravel|crm|friends|family|hacktoberfest|prm,18.9k,PHP,06/04/2023,"3,755"
+bcit-ci/CodeIgniter,"Open Source PHP Framework (originally from EllisLab)",no,php|php7|php-framework|php8,18.2k,PHP,07/04/2023,"10,342"
+swoole/swoole-src,"🚀 Coroutine-based concurrency library for PHP",no,swoole|php|websocket|coroutines|concurrency|event,17.8k,C++,30/03/2023,"12,653"
+facebook/hhvm,"A virtual machine for executing programs written in Hack.",no,php|hack|hhvm|hacklang,17.6k,C++,10/04/2023,"56,848"
+matomo-org/matomo,"Liberating Web Analytics. Star us on Github? +1. Matomo is the leading open alternative to Google Analytics that give…",yes,php|analytics|mysql|security|website|marketing|privacy|mobile|log|web-analytics|piwik|intranet|growth|hacktoberfest|matomo,17.5k,PHP,09/04/2023,"29,103"
+briannesbitt/Carbon,"A simple PHP API extension for DateTime.",yes,,16.1k,PHP,27/03/2023,"3,434"
+nikic/PHP-Parser,"A PHP parser written in PHP",no,parser|ast|php|static-analysis,16.1k,PHP,27/03/2023,"1,426"
+barryvdh/laravel-debugbar,"Debugbar for Laravel (Integrates PHP Debug Bar)",yes,laravel|debugbar|hacktoberfest,15.1k,PHP,09/04/2023,963
+erusev/parsedown,"Better Markdown Parser in PHP",no,php|markdown|parser|markdown-parser,14.4k,PHP,06/12/2022,843
+antlr/antlr4,"ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or t…",no,java|cpp|parser-generator|javascript|python|dart|swift|golang|php|parse|csharp|parsing|grammar|antlr|antlr4|language-recognition,14.2k,Java,01/04/2023,"9,107"
+yiisoft/yii2,"Yii 2: The Fast, Secure and Professional PHP Framework",yes,hacktoberfest|yii2|yii|php|framework|php-framework,14.1k,PHP,05/04/2023,"20,191"
+flarum/flarum,"Simple forum software for building great communities.",yes,php|laravel|forum|flarum,13.9k,PHP,10/03/2023,345
+getgrav/grav,"Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS powered by PHP, Markdown, Twig, and Symfony",yes,php|grav|markdown|twig|symfony|yaml|cms|content|website|php7|doctrine|flat-file|website-builder|content-management|website-generation,13.7k,PHP,06/04/2023,"7,494"
+Intervention/image,"PHP Image Manipulation",yes,php|laravel|image|imagick|gd|manipulation|intervention|thumbnail|watermark,13.2k,PHP,16/01/2023,760
+lionsoul2014/ip2region,"Ip2region (2.0 - xdb) is a offline IP address manager framework and locator, support billions of data segments, ten m…",no,lua|c|java|rust|golang|php|ip-address|clang|ip-lookup|ip-location|ip-address-location|ip-address-database|lua-extension|xdb-engine,13.1k,C,03/04/2023,638
+CachetHQ/Cachet,"📛 An open source status page system for everyone.",yes,php|laravel|vuejs|composer|cachet|statuspage|web-application,13.1k,PHP,09/12/2022,"7,274"
+filp/whoops,"PHP errors for cool kids",yes,php|ui|errors|error-handling|whoops|php-errors,13k,PHP,08/03/2023,"1,193"
+thephpleague/flysystem,"Abstraction for local and remote filesystems",yes,filesystem|php|filesystem-library|thephpleague,12.9k,PHP,21/03/2023,971
+vlucas/phpdotenv,"Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",yes,environment-variables|dotenv|environment|configuration|php|hacktoberfest,12.5k,PHP,19/03/2023,579
+phacility/phabricator,"Effective June 1, 2021: Phabricator is no longer actively maintained.",no,git|php|svn|phabricator|hg,12.3k,PHP,27/02/2023,"17,065"
+roots/sage,"WordPress starter theme with Laravel Blade components and templates, Tailwind CSS, and a modern development workflow",yes,laravel|wordpress|tailwindcss|wordpress-theme|php|blade|wordpress-starter-theme|sage|acorn|wordpress-laravel,12.1k,PHP,05/04/2023,"2,562"
+PHPOffice/PhpSpreadsheet,"A pure PHP library for reading and writing spreadsheet files",no,php|excel|libreoffice|xlsx|xls|spreadsheet|office|gnumeric|hacktoberfest|ods|phpexcel|msexcel|sylk,12.1k,PHP,09/04/2023,"4,115"
+ramsey/uuid,"❄️ A PHP library for generating universally unique identifiers (UUIDs).",yes,uuid|php|uid|guid|identifiers|php8,12.1k,PHP,27/03/2023,"1,261"
+PHP-CS-Fixer/PHP-CS-Fixer,"A tool to automatically fix PHP Coding Standards issues",yes,php|static-analysis|code-style|code-standards,11.9k,PHP,09/04/2023,"8,940"
+phpstan/phpstan,"PHP Static Analysis Tool - discover bugs in your code without running it!",yes,php|testing|php7|static-code-analysis|static-analysis|static-analyzer|phpstan,11.8k,PHP,10/04/2023,"9,197"
+laradock/laradock,"Full PHP development environment for Docker.",yes,docker|php|docker-compose|docker-container|docker-environment|docker-symfony|php-docker|php-environment|docker-wordpress|hacktoberfest|php-container|docker-compose-template|php-docker-image|laradock|docker-laravel|laravel-docker|docker-nginx-php|docker-drupal|laravel-docker-compose|php-docker-images,11.8k,Dockerfile,30/03/2023,"3,121"
+chiraggude/awesome-laravel,"A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem",no,laravel|awesome|php,11.7k,N/A,05/04/2023,980
+slimphp/Slim,"Slim is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs.",yes,php|framework|micro-framework|slim|psr-3|psr-7|slim-framework|psr-15|php-micro-framework,11.5k,PHP,11/03/2023,"4,434"
+PHPOffice/PHPExcel,ARCHIVED,no,,11.5k,PHP,02/01/2019,"1,274"
+piotrplenik/clean-code-php,"🛁 Clean Code concepts adapted for PHP",no,,11.5k,PHP,06/03/2023,380
+SpartnerNL/Laravel-Excel,"🚀 Supercharged Excel exports and imports in Laravel",yes,laravel|php|csv|laravel-package|laravel-5-package|phpexcel|phpoffice,11.4k,PHP,01/04/2023,"1,482"
+BookStackApp/BookStack,"A platform to create documentation/wiki content built with PHP & Laravel",yes,php|documentation|laravel|wiki|selfhosted|bookstack,11.3k,PHP,09/04/2023,"3,942"
+spatie/laravel-permission,"Associate users with roles and permissions",yes,laravel|php|secure|permission,11.1k,PHP,08/04/2023,"1,437"
+egulias/EmailValidator,"PHP Email address validator",yes,php|validator|email|emailvalidator,11.1k,PHP,14/01/2023,365
+octobercms/october,"Self-hosted CMS platform based on the Laravel PHP Framework.",no,php|laravel|cms|platform|framework|backend|octobercms|cmf|cms-platform,10.9k,PHP,06/04/2023,"5,916"
+tymondesigns/jwt-auth,"🔐 JSON Web Token Authentication for Laravel & Lumen",yes,jwt|laravel|authentication|php,10.8k,PHP,01/04/2023,"1,496"
+phalcon/cphalcon,"High performance, full-stack PHP framework delivered as a C extension.",yes,php|hacktoberfest|framework|extension|phalcon|php-extension|phalcon-framework|phalcon-extension|ext-phalcon,10.7k,PHP,23/03/2023,"16,539"
+magento/magento2,"Prior to making any Submission(s), you must sign an Adobe Contributor License Agreement, available here at: https://o…",no,magento|magento2|ecommerce|ecommerce-platform|php|hacktoberfest,10.6k,PHP,09/04/2023,"136,130"
+walkor/workerman,"An asynchronous event driven PHP socket framework. Supports HTTP, Websocket, SSL and other custom protocols.",yes,websocket|php|socket|tcp|asynchronous|high-performance|timer|socket-server|wss|ws|event-driven,10.4k,PHP,06/04/2023,"1,798"
+mockery/mockery,"Mockery is a simple yet flexible PHP mock object framework for use in unit testing with PHPUnit, PHPSpec or any other…",no,mock|phpunit|mocking|php|stub|mockery|test-doubles,10.4k,PHP,23/03/2023,"2,002"
+arthurspk/guiadevbrasil,"Um guia extenso de informações com um vasto conteúdo de várias áreas para ajudar, agregar conhecimento e retirar dúvi…",no,css|github|javascript|python|c|git|java|html|php|c-plus-plus|html5|csharp|js|css3|python3|java-8|html-css-javascript|github-config,10.3k,N/A,09/04/2023,341
+serbanghita/Mobile-Detect,"Mobile_Detect is a lightweight PHP class for detecting mobile devices (including tablets). It uses the User-Agent str…",yes,php|mobile-detect|device-detection|user-agents|mobile-redirects,10.2k,PHP,06/02/2023,849
+caprover/caprover,"Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids",no,nodejs|docker|docker-swarm|php|python|heroku|nginx|aws|digitalocean|node|deployment|azure|containers|webserver|paas|node-js|nginx-docker|captainduckduck|caprover,10.2k,TypeScript,07/04/2023,"1,496"
+firefly-iii/firefly-iii,"Firefly III: a personal finances manager",yes,money|php|accounting|linux|docker|personal-finance|finance|php7|financial|credit-card|budgeting|cash-flow|budget|expenses|finances|cashflow|budgets|paycheck,10.2k,PHP,09/04/2023,"17,478"
+squizlabs/PHP_CodeSniffer,"PHP_CodeSniffer tokenizes PHP files and detects violations of a defined set of coding standards.",no,php|cli|qa|automation|static-analysis|coding-standards,10.1k,PHP,07/04/2023,"7,237"
+w7corp/easywechat,"📦 一个 PHP 微信 SDK",yes,php|sdk|wechat|easywechat,10k,PHP,29/03/2023,"2,181"
+codota/TabNine,"AI Code Completions",no,javascript|ruby|python|java|bash|swift|rust|golang|php|typescript|ai|lua|cpp|vim-plugin|artificial-intelligence|atom-package|vscode-extension|sublime-package|jetbrains-plugin|gpt-2,9.9k,Shell,12/12/2022,347
+typecho/typecho,"A PHP Blogging Platform. Simple and Powerful.",no,php|blog|markdown|typecho,9.9k,PHP,29/03/2023,"1,429"
+deployphp/deployer,"The PHP deployment tool with support for popular frameworks out of the box",yes,php|deployment|tool|deploy|provision,9.8k,PHP,06/04/2023,"2,825"
+phpredis/phpredis,"A PHP extension for Redis",yes,php|redis|c|cluster|redis-cluster,9.6k,C,02/04/2023,"2,972"
+swiftmailer/swiftmailer,"Comprehensive mailing tools for PHP",yes,php|email|mailer|emails,9.6k,PHP,25/10/2021,"1,644"
+dompdf/dompdf,"HTML to PDF converter for PHP",no,html|php|css|font|dompdf|html-to-pdf|pdf-generation,9.6k,PHP,06/04/2023,"1,709"
+bobthecow/psysh,"A REPL for PHP",no,php|repl|shell|cli|psysh,9.5k,PHP,07/04/2023,"1,956"
+symfony/console,"Eases the creation of beautiful and testable command line interfaces",yes,symfony|component|symfony-component|php|cli|console|terminal|command-line,9.4k,PHP,04/04/2023,"3,857"
+librespeed/speedtest,"Self-hosted Speedtest for HTML5 and more. Easy setup, examples, configurable, mobile friendly. Supports PHP, Node, Mu…",no,xhr|php|web-worker|speedtest|internet-speed-checker|hacktoberfest|html5-speedtest|internet-speed|librespeed,9.4k,HTML,21/02/2023,235
+kanaka/mal,"mal - Make a Lisp",no,lisp|clojure|ruby|c|scala|swift|java|javascript|python|c-sharp|bash|docker|php|c-plus-plus|r|makefile|webassembly|learn-to-code|mal|lisp-interpreter,9.2k,Assembly,31/03/2023,"3,568"
+FriendsOfPHP/Goutte,"Goutte, a simple PHP Web Scraper",no,,9.2k,PHP,01/04/2023,321
+YOURLS/YOURLS,"🔗 The de facto standard self hosted URL shortener in PHP",yes,php|yourls|url-shortener|shortener|bitly|shorten-urls|url-shortner|hacktoberfest|short-url,9.1k,PHP,05/04/2023,"2,006"
+tennc/webshell,"This is a webshell open source project",yes,php|python|jsp|jspx|asp|webshell|aspx|pl|webshell-sniper,8.9k,PHP,09/04/2023,725
+codeguy/php-the-right-way,"An easy-to-read, quick reference for PHP best practices, accepted coding standards, and links to authoritative tutori…",no,,8.7k,CSS,03/03/2023,"1,569"
+cakephp/cakephp,"CakePHP: The Rapid Development Framework for PHP - Official Repository",no,php|cakephp|hacktoberfest|validation|orm|web|mvc|rest-api|web-framework|mvc-framework|psr-7|form-builder|rapid-development,8.6k,PHP,09/04/2023,"44,651"
+reactphp/reactphp,"Event-driven, non-blocking I/O with PHP.",yes,php|reactphp,8.6k,PHP,06/04/2023,981
+sebastianbergmann/php-code-coverage,"Library that provides collection, processing, and rendering functionality for PHP code coverage information.",yes,,8.6k,PHP,04/04/2023,"2,738"
+phpspec/prophecy,"Highly opinionated mocking framework for PHP 5.3+",no,,8.5k,PHP,05/04/2023,766
+googleapis/google-api-php-client,"A PHP client library for accessing Google APIs",no,,8.5k,PHP,06/04/2023,"1,813"
+woocommerce/woocommerce,"A customizable, open-source ecommerce platform built on WordPress. Build any commerce solution you can imagine.",no,wordpress|php|ecommerce|reactjs|woocommerce|ecommerce-platform|hacktoberfest|automattic,8.5k,PHP,08/04/2023,"51,371"
+symfony/http-foundation,"Defines an object-oriented layer for the HTTP specification",yes,symfony|symfony-component|component|php,8.4k,PHP,31/03/2023,"4,289"
+symfony/event-dispatcher,"Provides tools that allow your application components to communicate with each other by dispatching events and listen…",yes,symfony|component|symfony-component|php,8.3k,PHP,31/03/2023,"1,076"
+symfony/finder,"Finds files and directories via an intuitive fluent interface",yes,symfony|symfony-component|component|php,8.2k,PHP,03/04/2023,"1,119"
+wallabag/wallabag,"wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.",yes,php|symfony|self-hosted|wallabag|read-it-later|symfony-application|hacktoberfest,8.1k,PHP,10/04/2023,"7,878"
+paragonie/random_compat,"PHP 5.x support for random_bytes() and random_int()",no,php|polyfill|random|randomization|random-generation|secure|php5|secure-by-default|random-bytes|csprng|randomness|random-int,8.1k,PHP,11/03/2023,442
+owncloud/core,"☁️ ownCloud web server core (Files, DAV, etc.)",no,javascript|platform|php|enterprise|owncloud|sharing|file-sharing|file-sync|self-hosting|federated,8k,PHP,06/04/2023,"49,310"
+php-fig/simple-cache,N/A,no,php|hacktoberfest,8k,PHP,21/01/2023,28
+symfony/http-kernel,"Provides a structured process for converting a Request into a Response",yes,symfony|symfony-component|php|component,7.9k,PHP,31/03/2023,"6,242"
+symfony/thanks,"Give thanks (in the form of a GitHub ★) to your fellow PHP package maintainers (not limited to Symfony components)!",yes,,7.9k,PHP,14/10/2020,96
+api-platform/api-platform,"Create REST and GraphQL APIs, scaffold Jamstack webapps, stream changes in real-time.",no,api|react|graphql|php|framework|symfony|rest|symfony-bundle|nextjs|openapi|graphql-server|json-ld|jamstack|hydra-api|hacktoberfest|api-platform|hypermedia-client|hypermedia-api|mercure|vulcain,7.9k,TypeScript,29/03/2023,716
+top-think/think,"ThinkPHP Framework ——十年匠心的高性能PHP框架",no,template|framework|orm|route|thinkphp,7.8k,PHP,23/03/2023,"2,035"
+twigphp/Twig,"Twig, the flexible, fast, and secure template language for PHP",yes,php|twig|template-engine|templating|template-language,7.7k,PHP,07/04/2023,"6,047"
+symfony/polyfill-mbstring,"This component provides a partial, native PHP implementation for the Mbstring extension.",yes,polyfill|php|symfony|symfony-component|component,7.6k,PHP,30/01/2023,88

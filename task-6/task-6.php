@@ -42,7 +42,7 @@ $client = new Client([
   ],
 ]);
 
-for ($i = 1; $i <= 1; $i++) {
+for ($i = 1; $i <= 10; $i++) {
   usleep(10);
   $response = $client->request('GET', '/search', [
     'query' => [
@@ -77,7 +77,6 @@ for ($i = 1; $i <= 1; $i++) {
           'language'      => $node->filter('span[itemprop="programmingLanguage"]')->count()  ?
             $node->filter('span[itemprop="programmingLanguage"]')->innerText() :
             'N/A',
-          'license'       => $node->filter('div.d-flex')->children(),
           'date'          => DateTime::createFromFormat(
             'Y-m-d\TH:i:s\Z',
             $node->filter('relative-time')->attr('datetime')
