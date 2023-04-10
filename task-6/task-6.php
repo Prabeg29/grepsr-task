@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * Write a crawler in PHP to extract data from URL: https://github.com/search?q=php
  * a. Collect all the listings available from first 10 pages sorted by ‘Most stars’
@@ -72,7 +74,9 @@ for ($i = 1; $i <= 1; $i++) {
           'is_sponsored'  => $node->filter('summary')->count() ? 'yes' : 'no',
           'topics'        => rtrim($topics,  '|'),
           'stargazers'    => $node->filter('a.Link--muted')->first()->text(),
-          'language'      => $node->filter('span[itemprop="programmingLanguage"]')->count()  ? $node->filter('span[itemprop="programmingLanguage"]')->innerText() : 'N/A',
+          'language'      => $node->filter('span[itemprop="programmingLanguage"]')->count()  ?
+            $node->filter('span[itemprop="programmingLanguage"]')->innerText() :
+            'N/A',
           'license'       => $node->filter('div.d-flex')->children(),
           'date'          => DateTime::createFromFormat(
             'Y-m-d\TH:i:s\Z',
