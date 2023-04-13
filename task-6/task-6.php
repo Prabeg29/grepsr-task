@@ -96,9 +96,17 @@ for ($i = 1; $i <= 10; $i++) {
   }
 }
 
-$fp = fopen('repositories.csv', 'w');
-fputcsv($fp, array_keys(reset($data)));
+ob_start();
+
+$buffer = fopen('php://output', 'w+');
+fputcsv($buffer, array_keys(reset($data)));
+
 foreach ($data as $row) {
-  fputcsv($fp, $row);
+  fputcsv($buffer, $row);
 }
-fclose($fp);
+
+$csvContent = ob_get_clean();
+
+$file = fopen('repositories.csv', 'w');
+fwrite($file, $csvContent);
+fclose($file);
